@@ -31,7 +31,7 @@ Open http://localhost:5173. Paste your gateway token in **Settings** (same value
 
 ## Production
 
-**Console URL:** https://agent.edoncore.com
+**Console URL:** https://console.edoncore.com
 
 ### Deploy (Render recommended)
 

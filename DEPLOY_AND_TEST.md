@@ -1,4 +1,4 @@
-# Deploy Agent UI to agent.edoncore.com
+# Deploy Agent UI to console.edoncore.com
 
 ## Render (recommended)
 
@@ -16,8 +16,8 @@ and set the **Root directory** to `edon-agent-ui`.
 - `VITE_EDON_MOCK_MODE=false`
 
 **Custom domain:**
-- Add `agent.edoncore.com` in Render
-- Create a DNS CNAME record: `agent` → `<your-site>.onrender.com`
+- Add `console.edoncore.com` in Render
+- Create a DNS CNAME record: `console` → `<your-site>.onrender.com`
 
 **SPA rewrite (required for React Router):**
 - Rewrite `/*` → `/index.html`
@@ -25,5 +25,5 @@ and set the **Root directory** to `edon-agent-ui`.
 ## Vercel / Netlify (alternatives)
 
 Deploy as a Vite static site with output `dist`, then add the custom domain
-`agent.edoncore.com`. Make sure you configure the SPA fallback (rewrite to
+`console.edoncore.com`. Make sure you configure the SPA fallback (rewrite to
 `/index.html`) so deep links do not 404.
